@@ -1,0 +1,295 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+General styles
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+	body {
+	background-image: url(../images/ecailles.png);
+	background-color: #fff;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Header styles
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+
+header {
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-image: url(../images/globe-full.jpg);
+}
+
+.inner-header {
+	width: 50%;
+	margin-left: auto;
+}
+
+.tagline {
+	padding-top: 250px;
+	padding-right: 2%;
+	padding-left: 5%;
+}
+
+.tagline h1 {
+	color: white;
+	line-height: 1;
+	padding-bottom: 8px;
+}
+
+.tagline p {
+	color: white;
+	line-height: 1;
+	padding-bottom: 8px;
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-family: "alexa-std",sans-serif;
+	color: #ea88af;
+}
+
+.tagline h2 {
+	color: white;
+	text-align: center;
+	line-height: 1.5;
+	font-size: 14px;
+	font-size: 1.4rem;
+	padding-top: 8px;
+}
+
+.logo {
+	position: absolute;
+	top: 3%;
+	right: 3%;
+}
+
+.arrow {
+	padding-top: 10%;
+	font-size: 2.4rem;
+}
+
+.image-credit {
+	text-align: left;
+	position: absolute;
+	bottom:20px;
+	left:2%;
+}
+
+.image-credit a {
+	font-family: "alexa-std",sans-serif;
+}
+
+.image-credit a:hover {
+	color: #ea88af;
+	-webkit-transition: .3s ease; 
+	-moz-transition: .3s ease;
+	transition: .3s ease;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Nav styles
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.accordion-title {
+	font-size: 24px;
+	font-size: 2.4rem;
+	color: #ea88af;
+	line-height: 2;
+	cursor: pointer;
+}
+
+.accordion-title:hover {
+	color: white;
+	-webkit-transition: .3s ease; 
+	-moz-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.show-hide p {
+	padding-right: 100px;
+	color: white;
+	line-height: 1.2;
+	font-size: 16px;
+	font-size: 1.2rem;
+	text-align: left;
+	padding-bottom: 2%;
+}
+
+nav {
+	padding-left: 12%;
+	padding-top: 80px;
+}
+
+nav li a {
+	line-height: 1.5;
+	color: #ea88af;
+	font-size: 24px;
+	font-size: 2.4rem;
+}
+
+nav li a:hover {
+	color: white;
+	-webkit-transition: .3s ease; 
+	-moz-transition: .3s ease;
+	transition: .3s ease;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Main content styles
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.wrapper {
+	width: 60%;
+	margin: 0 auto;
+}
+
+
+.featured-container {
+	width: 100%;
+}
+
+.featured-description {
+	width: 100%;
+}
+
+.featured-description h2 {
+	font-size: 40px;
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.featured-image-container {
+	width: 100%;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.featured-image-container img {
+	width: 100%;
+	height: auto;
+	opacity: 0.85;
+}
+
+.featured-image-container img:hover {
+	opacity: 1;
+}
+
+.bcit, .thor {
+	margin-top: 50px;
+}
+
+
+.view-project {
+	display: inline-block;
+	background-color: #ea88af;
+	line-height: 1.5;
+	margin: 40px 0;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	padding: 2%;
+	text-transform: uppercase;
+	border-radius: 50%;
+	color: white;
+	font-weight: bold;
+	border: solid 2px white;
+}
+
+.view-project:hover {
+	border: dotted white 2px;
+	background-color: #797C81;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.view-project:active {
+	color: #ea88af;
+}
+
+.get-in-touch {
+	text-align: center;
+}
+
+#lets-talk {
+	padding-top: 2%;
+	line-height: 1;
+}
+
+.get-in-touch a {
+	color: black;
+}
+
+.get-in-touch a:hover {
+	color: #3f4144;
+}
+
+.get-in-touch p {
+	padding: 0 0 2% 0;
+}
+
+.fa-envelope {
+	color: #ea88af;
+	font-size: 2em;
+}
+
+.get-in-touch > a > i {
+	font-size: 3em;
+	color: #797C81;
+	padding: 0 0 2% 0;
+}
+
+.get-in-touch > a > i:hover {
+	color: #ea88af;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.get-in-touch > a > i:active {
+	color: #3f4144;
+}
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Footer styles
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+footer {
+	width: 100%;
+	background-color: #e2e3e4;
+	border-top: 2px solid #797C81;
+}
+
+footer p {
+	text-align: left;
+	padding: 2% 0 2% 2%;
+	float: left;
+}
+
+
+.scrollup {
+	position:fixed;
+	opacity: 1;
+	bottom: 2%;
+	right:7%;
+	font-size: 2em;
+	color: #ea88af;
+}
+
+
+
+
+
+.clear {
+	clear: both;
+}

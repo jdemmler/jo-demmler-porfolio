@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.white {
+	color: white;
+}
+
+
+h1 {
+	font-size: 30px;
+	font-size: 3.0rem;
+	color: #ea88af;
+	text-align: center;
+	line-height: 2;
+	font-family: "alexa-std",sans-serif;
+}
+
+h2 {
+	color: #797C81;
+	text-align: center;
+	line-height: 1.5;
+	font-size: 14px;
+	font-size: 1.4rem;
+	padding-bottom: 10px;
+	font-family: 'Lato', sans-serif;
+}
+
+p, .skills li {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	text-align: center;
+}
+
+
+
+.divide-line-content {
+	height: 1px;
+	width: 150px;
+	background: #ea88af;
+	display: block;
+	margin: 0 auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.divide-line-header {
+	height: 1px;
+	width: 150px;
+	background: white;
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+a {
+	text-decoration: none;
+}

@@ -8,7 +8,13 @@
 		width: 70%;
 		margin: 0 auto;
 	}
+
+	.tagline {
+		padding-left: 15%;
+		padding-right: 5%;
+	}
 }
+
 
 @media only screen and (max-width:1200px){
 
@@ -20,27 +26,122 @@
 
 @media only screen and (max-width:960px){
 
+	.tagline h1 {
+		font-size: 2.5rem;
+	}
+
 	.wrapper {
 		width: 85%;
 		margin: 0 auto;
 	}
 
+	nav {
+		padding-top: 60px;
+	}
+
+	.accordion-title {
+		font-size: 20px;
+		font-size: 2rem;	
+	}
+
+	nav li a {
+		font-size: 20px;
+		font-size: 2rem;
+	}
+
 	.scrollup {
 		bottom: 1%;
+		right:1%;
 	}
 }
 
+@media only screen and (max-width:800px){
+
+	.tagline {
+		padding-top: 50px;
+	}
+
+	.tagline h1 {
+		font-size: 20px;
+		font-size: 2.0rem;
+	}
+
+	.tagline h2 {
+		font-size: 10px;
+		font-size: 1rem;
+	}
+
+	.logo {
+		display: none;
+	}
+
+	nav {
+		padding-left: 30%;
+		padding-top: 90px;
+	}
+
+	.accordion-title {
+		font-size: 15px;
+		font-size: 1.5rem;	
+	}
+
+	nav li a {
+		font-size: 15px;
+		font-size: 1.5rem;	
+	}
+	
+}
+
 @media only screen and (max-width:500px){
+
+	.inner-header {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.tagline {
+		padding-top: 25px;
+		padding-left: 0;
+	}
+
+	.tagline h1 {
+		font-size: 25px;
+		font-size: 2.5rem;
+	}
+
+	.tagline h2 {
+		color: white;
+		font-size: 16px;
+		font-size: 1.6rem;
+	}
 
 	.wrapper {
 		width: 90%;
 		margin: 0 auto;
 	}
 
+	.accordion-title {
+		font-size: 12px;
+		font-size: 1.2rem;	
+	}
+
+	nav li a {
+		font-size: 12px;
+		font-size: 1.2rem;	
+	}
+
 	.scrollup {
 		bottom: 2px;
 	}
 }
+
+@media only screen and (max-width:450px){
+
+	
+
+	
+}
+
 
 @media only screen and (max-width:390px){
 

@@ -22,7 +22,7 @@
 
 				<a href="#"><img src="images/jd-logo-v3.png" alt="Jo Demmler Web Design Logo"></a>
 
-			</div> --><!-- end logo -->
+			</div><!-- end logo -->
 
 			<div class="tagline">
 				<h1>Interactive Web Design & Development</h1>

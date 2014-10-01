@@ -46,16 +46,6 @@ header {
 	padding-bottom: 8px;
 }
 
-/*.tagline p {
-	color: white;
-	line-height: 1;
-	padding-bottom: 8px;
-	font-size: 16px;
-	font-size: 1.6rem;
-	font-family: "alexa-std",sans-serif;
-	color: #ea88af;
-}*/
-
 .tagline h2 {
 	color: white;
 	text-align: center;
@@ -114,13 +104,13 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 }
 
 .show-hide p {
-	padding-right: 100px;
+	padding-right: 5%;
+	padding-bottom: 15px;
 	color: white;
 	line-height: 1.2;
-	font-size: 16px;
-	font-size: 1.2rem;
+	font-size: 17px;
 	text-align: left;
-	padding-bottom: 2%;
+	
 }
 
 nav {
@@ -154,6 +144,12 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 .featured-container {
 	width: 100%;
+}
+
+.project-status {
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 5px;
 }
 
 .featured-description {
@@ -259,6 +255,20 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 	color: #3f4144;
 }
 
+.student-work {
+	font-weight: bold;
+	font-size: 20px;
+	color: #3f4144;
+}
+
+.student-work:hover {
+	color: #ea88af;
+	font-size: 22px;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	transition: .3s ease;
+}
+
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 Footer styles
@@ -284,6 +294,7 @@ footer p {
 	right:7%;
 	font-size: 2em;
 	color: #ea88af;
+	display: none;
 }
 
 

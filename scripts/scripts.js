@@ -1,5 +1,5 @@
 
-var bottom_of_blue;
+var bottom_of_world;
 
 window.onload = function() {
 
@@ -9,7 +9,14 @@ window.onload = function() {
 	//Get the window's height
 	var window_height = $(window).height();
 
-	$('header').css('height', window_height)
+	$('header').css('height', window_height);
+
+	var bottom =$('nav').position().top+$('nav').outerHeight(true);
+
+	if (window_height < bottom) {
+
+	$('header').css('height', bottom + 40);	
+	}
 }
 
 
@@ -22,12 +29,32 @@ var exampleReveal = $('.about li');
 exampleReveal.click(function() {
 	if ( $(this).children('span').text() =='  +' ) {
 		$(this).children('span').text('  -') 
+		$(this).next().slideToggle(20,"linear",function() {
+			console.log('test');
+			var bottom_of_nav =$('nav').position().top+$('nav').outerHeight(true);
+			var bottom_of_header =  parseInt($('header').css('height'), 10);
+			console.log(bottom_of_nav);
+			console.log(bottom_of_header);
+			if(bottom_of_nav > bottom_of_header){
+				
+				bottom_of_world = bottom_of_header;
+				$('header').css('height', bottom_of_nav + 40);	
+		}
+	
+		});
+		
 
 	}else{
 		$(this).children('span').text('  +')
+		
+			$(this).next().slideToggle(20,"linear",function() {
+				$('header').css('height', bottom_of_world);	});
+
+
 	}
-	var temp = $(this).next()
-	$(this).next().slideToggle();
+
+
+
 });
 
 

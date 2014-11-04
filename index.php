@@ -47,7 +47,7 @@
 			</nav>
 
 		</div><!-- end inner-header -->
-		<p class="image-credit"><a class="white" href="http://www.flickr.com/photos/9135956@N04/3650237678" target="blank">Image Credit: Shelby H. The World</a></p>
+		<p class="image-credit"><a class="white" href="http://www.flickr.com/photos/9135956@N04/3650237678" target="_blank">Image Credit: Shelby H. The World</a></p>
 	</header>
 
 	<div class="wrapper">
@@ -58,7 +58,7 @@
 				<article class="featured-container ptm">
 					<div class="featured-description">
 						<h2>Personal Travel Management Ltd</h2>
-						<p>Personal Travel Management is an independent travel agency located in Vancouver, proudly hosting twenty six travel professionals throughout British Columbia and Alberta. They required a website that showcased their travel experts, their travel specialities and their group departures, while at the same time inspiring customers with beautiful and engaging imagery.</p>
+						<p>Personal Travel Management is an independent travel agency located in Vancouver, proudly hosting twenty six travel professionals throughout British Columbia and Alberta. They required a website that showcased their travel experts, their travel specialities and their group departures, while at the same time inspiring customers with beautiful and engaging imagery. The site is still under construction.</p>
 						<span class="divide-line-content"></span>
 						<ul class="skills">
 							<li>Wordpress</li>
@@ -67,12 +67,12 @@
 							<li>HMTL5, CSS3, PHP, jQuery</li>
 							<li>Responsive Design</li>
 						</ul>
-						<p><a class="view-project" href="http://ptm.htpwebdesign.ca/" target="blank">View project</a></p>
+						<p><a class="view-project" href="http://ptm.htpwebdesign.ca/" target="_blank">View project</a></p>
 						<p class="project-status">Currently Under Construction</p> 
 					</div><!-- end featured description -->
 
 					<div class="featured-image-container">
-						<a href="http://ptm.htpwebdesign.ca" target="blank">
+						<a href="http://ptm.htpwebdesign.ca" target="_blank">
 							<img src="images/desk-concept-ptm-sm.jpg" alt="Image of Personal Travel Managements Home page">
 						</a>
 					</div><!-- end featured-image-contaner -->
@@ -81,7 +81,7 @@
 				<article class="featured-container bcit">
 					<div class="featured-description">
 						<h2>BCIT</h2>
-						<p>BCIT School of Computing and Academic Studies: High-Tech Professional Program required a website to showcase the possibilities for companies and individuals to work with BCIT students. The site needed to prioritize the content, have a simple navigation and make it easy for employers to review options and to contact BCIT with any inquiries.</p>
+						<p>BCIT School of Computing and Academic Studies: High-Tech Professional Program required a website to showcase the possibilities for companies and individuals to work with BCIT students. The site needed to prioritize the content, have a simple navigation and make it easy for employers to review options and to contact BCIT with any inquiries. This site is purely a demonstration site and images and some copy are showcased in a draft format.</p>
 						<span class="divide-line-content"></span>
 						<ul class="skills">
 							<li>Information Architecture</li>
@@ -89,30 +89,30 @@
 							<li>HMTL5, CSS3, PHP, PHP Templates, jQuery</li>
 							<li>Responsive Design</li>
 						</ul>
-						<p><a class="view-project" href="http://jdemmler.htpwebdesign.ca/htp-employer-site/" target="blank">View project</a></p>
+						<p><a class="view-project" href="http://jdemmler.htpwebdesign.ca/htp-employer-site/" target="_blank">View project</a></p>
 						<p class="project-status">Demonstration Site</p> 
 					</div><!-- end featured description -->
 
-					<a href="http://jdemmler.htpwebdesign.ca/htp-employer-site/" target="blank">
+					<a href="http://jdemmler.htpwebdesign.ca/htp-employer-site/" target="_blank">
 						<div class="featured-image-container">
-							<img src="images/bcit-macbook-v2.jpg" alt="Image of BCIT High Tech Proffesional Home page for work terms and projects"></a>
-						</div><!-- end featured-image-contaner -->
+							<img src="images/bcit-macbook-v2.jpg" alt="Image of BCIT High Tech Proffesional Home page for work terms and projects">
+						</div></a><!-- end featured-image-contaner -->
 					</article><!-- featured-container end bcit -->
 
 					<article class="featured-container thor">
 						<div class="featured-description">
 							<h2>Thor Travel</h2>
-							<p>Thor Travel is boutique adventure travel agency located in Adelaide, Australia. This was a school project highlighting the possibilities available to enhance their current website.</p>
+							<p>Thor Travel is boutique adventure travel agency located in Adelaide, Australia. This was a school project highlighting the possibilities available to enhance their current website. This site is purley a demonstration site.</p>
 							<span class="divide-line-content"></span>
 							<ul class="skills">
 								<li>User Expereince Design</li>
 								<li>HTML5, CSS3</li>
 							</ul>
-							<p><a class="view-project" href="http://jdemmler.htpwebdesign.ca/thor_travel/index.html" target="blank">View project</a></p>
+							<p><a class="view-project" href="http://jdemmler.htpwebdesign.ca/thor_travel/index.html" target="_blank">View project</a></p>
 							<p class="project-status">Demonstration Site</p> 
 						</div><!-- end featured description -->
 
-						<a href="http://jdemmler.htpwebdesign.ca/thor_travel/index.html" target="blank">
+						<a href="http://jdemmler.htpwebdesign.ca/thor_travel/index.html" target="_blank">
 							<div class="featured-image-container">
 								<img src="images/thor-macbook.jpg" alt="Image of Thor Travels Home page">
 							</a>
@@ -127,10 +127,10 @@
 					<p>Always happy to chat!</p>
 					<i class="fa fa-envelope"></i>
 					<p><a href="mailto:joannedemmler@gmail.com">joannedemmler@gmail.com</a></p>
-					<a href="https://www.linkedin.com/profile/view?id=92115337&trk=nav_responsive_tab_profile" target="blank">
+					<a href="https://www.linkedin.com/profile/view?id=92115337&trk=nav_responsive_tab_profile" target="_blank">
 						<i class="fa fa-linkedin-square"></i>
 					</a>
-					<p><a href="http://jdemmler.htpwebdesign.ca/" target="blank"><span class="student-work">Showcase of Student work from BCIT</span></a></p>
+					<p><a href="http://jdemmler.htpwebdesign.ca/" target="_blank"><span class="student-work">Showcase of Student Work from BCIT</span></a></p>
 				</section>	
 
 			</main>

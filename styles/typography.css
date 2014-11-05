@@ -7,6 +7,7 @@
 }
 
 
+
 h1 {
 	font-size: 30px;
 	font-size: 3.0rem;
@@ -26,7 +27,7 @@ h2 {
 	font-family: 'Lato', sans-serif;
 }
 
-p, .skills li {
+p, .skills {
 	font-family: 'Lato', sans-serif;
 	font-size: 17px;
 	line-height: 1.4;

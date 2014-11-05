@@ -122,17 +122,31 @@
 
 				</section><!-- end featured-->
 
-                <section class="services">
+                <section class="services-box">
                     <article class="services">
                         <h1 id="prices">Services</h1>
                         <span class="divide-line-content"></span>
                         <div class="services-container">
                             <h2>These are full service WordPress web development packages</h2>
-                            <p>Websites are developed using WordPress an easy to use content management system which easily allows you manage your website without a need for programming experience. These packages also include 1 year website hosting and domain registration (depending on aviability and price) as well as preventive maintenance and updates to the website.</p>
-
-
+                            <p>Websites are developed using WordPress an easy to use content management system which easily allows you manage your website without a need for programming experience. These packages also include 1 year website hosting and domain registration (depending on availability and price) as well as preventive maintenance and updates to the website.</p>
+                            <h2 class="accordion-title" id="services-accord">Basic WordPress Start-up Kit<span class="plus">  +</span></h2>
+                            <div class="show-hide-services">
+                            <p>After a quick install and start-up kit on how to set-up WordPress for a small site or blog: </p>
+                                <ul>
+                                    <li>Web Hosting (paid for one year): One year of first class hosting</li>
+                                    <li>Domain Name (paid one year): One domain name (dependant on availability and price)</li>
+                                    <li>Guidance selecting a WordPress theme</li>
+                                    <li>Theme installed properly</li>
+                                    <li>WordPress is installed properly and securely</li>
+                                    <li>Make sure that your domain is pointing to the right place</li>
+                                    <li>WordPress dashboard is configured properly for you</li>
+                                    <li>Set up installing great plugins, backup and google analytics</li>
+                                   <li>Back up your site and keep your website safe
+                                       WordPress training</li>
+                                </ul>
 
                         </div>
+                            </div>
 
                     </article><!-- end services -->
                 </section><!-- end services -->

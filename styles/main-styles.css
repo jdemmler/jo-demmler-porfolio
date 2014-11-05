@@ -217,7 +217,8 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 	text-align: center;
 }
 
-#lets-talk {
+#lets-talk,
+#prices{
 	padding-top: 2%;
 	line-height: 1;
 }

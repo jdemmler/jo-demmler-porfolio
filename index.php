@@ -42,6 +42,7 @@
 						</div><!-- end show-hide -->	
 					</div><!-- end about -->
 					<li><a href="#featured">Featured Projects</a></li>
+                    <li><a href="#prices">Services</a></li>
 					<li><a href="#lets-talk">Get In Touch</a></li>
 				</ul>
 			</nav>
@@ -121,12 +122,27 @@
 
 				</section><!-- end featured-->
 
+                <section class="services">
+                    <article class="services">
+                        <h1 id="prices">Services</h1>
+                        <span class="divide-line-content"></span>
+                        <div class="services-container">
+                            <h2>These are full service WordPress web development packages</h2>
+                            <p>Websites are developed using WordPress an easy to use content management system which easily allows you manage your website without a need for programming experience. These packages also include 1 year website hosting and domain registration (depending on aviability and price) as well as preventive maintenance and updates to the website.</p>
+
+
+
+                        </div>
+
+                    </article><!-- end services -->
+                </section><!-- end services -->
+
 				<section class="get-in-touch">
 					<h1 id="lets-talk">Get in Touch</h1>
 					<span class="divide-line-content"></span>
 					<p>Always happy to chat!</p>
 					<i class="fa fa-envelope"></i>
-					<p><a href="mailto:joannedemmler@gmail.com">joannedemmler@gmail.com</a></p>
+					<p><a href="mailto:joannedemmler@gmail.com">jo@jodemmler.com</a></p>
 					<a href="https://www.linkedin.com/profile/view?id=92115337&trk=nav_responsive_tab_profile" target="_blank">
 						<i class="fa fa-linkedin-square"></i>
 					</a>
